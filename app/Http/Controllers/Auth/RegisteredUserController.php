@@ -41,6 +41,5 @@ class RegisteredUserController extends Controller
             'token' => $user->createToken('api-token')->plainTextToken,
             'user' => $user
         ]);
-        // 1|LvcUQBGhTBBLajoXfThByqfFMiXr6Q6h6w4758tha625ff10
     }
 }
